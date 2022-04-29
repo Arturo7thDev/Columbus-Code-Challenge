@@ -14,6 +14,29 @@
 		37621249281B7D480066D7AE /* Columbus_Digital_iOS_Code_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37621247281B7D480066D7AE /* Columbus_Digital_iOS_Code_Challenge.xcdatamodeld */; };
 		3762124B281B7D490066D7AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3762124A281B7D490066D7AE /* Assets.xcassets */; };
 		3762124E281B7D490066D7AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3762124C281B7D490066D7AE /* LaunchScreen.storyboard */; };
+		3762125B281B7EB70066D7AE /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762125A281B7EB70066D7AE /* MainMenuViewController.swift */; };
+		3762125D281B7EF70066D7AE /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762125C281B7EF70066D7AE /* AddContactViewController.swift */; };
+		3762125F281B7F1F0066D7AE /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762125E281B7F1F0066D7AE /* ContactListViewController.swift */; };
+		37621263281B7F9C0066D7AE /* ContactInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621262281B7F9C0066D7AE /* ContactInformationViewController.swift */; };
+		37621265281B7FBE0066D7AE /* EditContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621264281B7FBE0066D7AE /* EditContactViewController.swift */; };
+		37621268281B800F0066D7AE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621267281B800F0066D7AE /* Contact.swift */; };
+		3762126B281B8A4F0066D7AE /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762126A281B8A4F0066D7AE /* DataBaseManager.swift */; };
+		3762126D281BAD930066D7AE /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762126C281BAD930066D7AE /* NetworkConnection.swift */; };
+		3762126F281BAE7E0066D7AE /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3762126E281BAE7E0066D7AE /* Timer.swift */; };
+		37621272281BAF1B0066D7AE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 37621271281BAF1B0066D7AE /* Alamofire */; };
+		37621274281BB10C0066D7AE /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37621273281BB10C0066D7AE /* TimerViewController.swift */; };
+		377F1C8E281C159700F01370 /* Atom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1C8D281C159700F01370 /* Atom.swift */; };
+		377F1C91281C1A9D00F01370 /* TimerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1C8F281C1A9D00F01370 /* TimerTableViewCell.swift */; };
+		377F1C92281C1A9D00F01370 /* TimerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377F1C90281C1A9D00F01370 /* TimerTableViewCell.xib */; };
+		377F1C94281C32F300F01370 /* CreateContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1C93281C32F300F01370 /* CreateContactProtocol.swift */; };
+		377F1C96281C338F00F01370 /* CreateContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1C95281C338F00F01370 /* CreateContactPresenter.swift */; };
+		377F1CA5281C3FD900F01370 /* ContactListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CA4281C3FD900F01370 /* ContactListProtocol.swift */; };
+		377F1CA9281C417400F01370 /* ContactListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CA8281C417400F01370 /* ContactListPresenter.swift */; };
+		377F1CAC281C4E7F00F01370 /* EditContactProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CAB281C4E7F00F01370 /* EditContactProtocol.swift */; };
+		377F1CAF281C4FFA00F01370 /* EditContactPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CAE281C4FFA00F01370 /* EditContactPresenter.swift */; };
+		377F1CB1281C54F200F01370 /* TimerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CB0281C54F200F01370 /* TimerProtocol.swift */; };
+		377F1CB3281C554E00F01370 /* TimerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CB2281C554E00F01370 /* TimerPresenter.swift */; };
+		377F1CB5281C664100F01370 /* LoadingIndicatorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377F1CB4281C664100F01370 /* LoadingIndicatorManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +49,28 @@
 		3762124A281B7D490066D7AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3762124D281B7D490066D7AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3762124F281B7D490066D7AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3762125A281B7EB70066D7AE /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		3762125C281B7EF70066D7AE /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		3762125E281B7F1F0066D7AE /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		37621262281B7F9C0066D7AE /* ContactInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInformationViewController.swift; sourceTree = "<group>"; };
+		37621264281B7FBE0066D7AE /* EditContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactViewController.swift; sourceTree = "<group>"; };
+		37621267281B800F0066D7AE /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		3762126A281B8A4F0066D7AE /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		3762126C281BAD930066D7AE /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		3762126E281BAE7E0066D7AE /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		37621273281BB10C0066D7AE /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		377F1C8D281C159700F01370 /* Atom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Atom.swift; sourceTree = "<group>"; };
+		377F1C8F281C1A9D00F01370 /* TimerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTableViewCell.swift; sourceTree = "<group>"; };
+		377F1C90281C1A9D00F01370 /* TimerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimerTableViewCell.xib; sourceTree = "<group>"; };
+		377F1C93281C32F300F01370 /* CreateContactProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactProtocol.swift; sourceTree = "<group>"; };
+		377F1C95281C338F00F01370 /* CreateContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateContactPresenter.swift; sourceTree = "<group>"; };
+		377F1CA4281C3FD900F01370 /* ContactListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListProtocol.swift; sourceTree = "<group>"; };
+		377F1CA8281C417400F01370 /* ContactListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListPresenter.swift; sourceTree = "<group>"; };
+		377F1CAB281C4E7F00F01370 /* EditContactProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactProtocol.swift; sourceTree = "<group>"; };
+		377F1CAE281C4FFA00F01370 /* EditContactPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditContactPresenter.swift; sourceTree = "<group>"; };
+		377F1CB0281C54F200F01370 /* TimerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerProtocol.swift; sourceTree = "<group>"; };
+		377F1CB2281C554E00F01370 /* TimerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPresenter.swift; sourceTree = "<group>"; };
+		377F1CB4281C664100F01370 /* LoadingIndicatorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingIndicatorManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37621272281BAF1B0066D7AE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,14 +106,196 @@
 			children = (
 				3762123E281B7D480066D7AE /* AppDelegate.swift */,
 				37621240281B7D480066D7AE /* SceneDelegate.swift */,
-				37621242281B7D480066D7AE /* ViewController.swift */,
+				377F1C9A281C3E5600F01370 /* Timer */,
+				37621258281B7D660066D7AE /* Main */,
+				37621259281B7D770066D7AE /* Network */,
+				37621269281B8A3D0066D7AE /* DB */,
+				377F1CB6281C7EFD00F01370 /* Utils */,
 				37621244281B7D480066D7AE /* Main.storyboard */,
-				3762124A281B7D490066D7AE /* Assets.xcassets */,
 				3762124C281B7D490066D7AE /* LaunchScreen.storyboard */,
+				37621242281B7D480066D7AE /* ViewController.swift */,
+				3762124A281B7D490066D7AE /* Assets.xcassets */,
 				3762124F281B7D490066D7AE /* Info.plist */,
 				37621247281B7D480066D7AE /* Columbus_Digital_iOS_Code_Challenge.xcdatamodeld */,
 			);
 			path = "Columbus Digital iOS Code Challenge";
+			sourceTree = "<group>";
+		};
+		37621255281B7D530066D7AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37621267281B800F0066D7AE /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37621256281B7D590066D7AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CA3281C3F7700F01370 /* MainMenu */,
+				377F1CA1281C3F6400F01370 /* EditContact */,
+				377F1CA0281C3F5A00F01370 /* ContactInformation */,
+				377F1C9E281C3F3700F01370 /* ContactList */,
+				377F1C97281C3CFC00F01370 /* CreateContact */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		37621257281B7D5F0066D7AE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CAD281C4FE000F01370 /* EditContact */,
+				377F1CA7281C415F00F01370 /* ContactList */,
+				377F1C98281C3D1100F01370 /* CreateContact */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		37621258281B7D660066D7AE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				37621255281B7D530066D7AE /* Model */,
+				37621256281B7D590066D7AE /* View */,
+				37621257281B7D5F0066D7AE /* Presenter */,
+				377F1C99281C3D6400F01370 /* Protocol */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		37621259281B7D770066D7AE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3762126C281BAD930066D7AE /* NetworkConnection.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		37621269281B8A3D0066D7AE /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				3762126A281B8A4F0066D7AE /* DataBaseManager.swift */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		377F1C97281C3CFC00F01370 /* CreateContact */ = {
+			isa = PBXGroup;
+			children = (
+				3762125C281B7EF70066D7AE /* AddContactViewController.swift */,
+			);
+			path = CreateContact;
+			sourceTree = "<group>";
+		};
+		377F1C98281C3D1100F01370 /* CreateContact */ = {
+			isa = PBXGroup;
+			children = (
+				377F1C95281C338F00F01370 /* CreateContactPresenter.swift */,
+			);
+			path = CreateContact;
+			sourceTree = "<group>";
+		};
+		377F1C99281C3D6400F01370 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				377F1C93281C32F300F01370 /* CreateContactProtocol.swift */,
+				377F1CA4281C3FD900F01370 /* ContactListProtocol.swift */,
+				377F1CAB281C4E7F00F01370 /* EditContactProtocol.swift */,
+				377F1CB0281C54F200F01370 /* TimerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		377F1C9A281C3E5600F01370 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				377F1C9B281C3E6100F01370 /* Model */,
+				377F1C9C281C3E6500F01370 /* View */,
+				377F1C9D281C3E6A00F01370 /* Presenter */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		377F1C9B281C3E6100F01370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				377F1C8D281C159700F01370 /* Atom.swift */,
+				3762126E281BAE7E0066D7AE /* Timer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		377F1C9C281C3E6500F01370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				37621273281BB10C0066D7AE /* TimerViewController.swift */,
+				377F1C8F281C1A9D00F01370 /* TimerTableViewCell.swift */,
+				377F1C90281C1A9D00F01370 /* TimerTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		377F1C9D281C3E6A00F01370 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CB2281C554E00F01370 /* TimerPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		377F1C9E281C3F3700F01370 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				3762125E281B7F1F0066D7AE /* ContactListViewController.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		377F1CA0281C3F5A00F01370 /* ContactInformation */ = {
+			isa = PBXGroup;
+			children = (
+				37621262281B7F9C0066D7AE /* ContactInformationViewController.swift */,
+			);
+			path = ContactInformation;
+			sourceTree = "<group>";
+		};
+		377F1CA1281C3F6400F01370 /* EditContact */ = {
+			isa = PBXGroup;
+			children = (
+				37621264281B7FBE0066D7AE /* EditContactViewController.swift */,
+			);
+			path = EditContact;
+			sourceTree = "<group>";
+		};
+		377F1CA3281C3F7700F01370 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3762125A281B7EB70066D7AE /* MainMenuViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		377F1CA7281C415F00F01370 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CA8281C417400F01370 /* ContactListPresenter.swift */,
+			);
+			path = ContactList;
+			sourceTree = "<group>";
+		};
+		377F1CAD281C4FE000F01370 /* EditContact */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CAE281C4FFA00F01370 /* EditContactPresenter.swift */,
+			);
+			path = EditContact;
+			sourceTree = "<group>";
+		};
+		377F1CB6281C7EFD00F01370 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				377F1CB4281C664100F01370 /* LoadingIndicatorManager.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +314,9 @@
 			dependencies = (
 			);
 			name = "Columbus Digital iOS Code Challenge";
+			packageProductDependencies = (
+				37621271281BAF1B0066D7AE /* Alamofire */,
+			);
 			productName = "Columbus Digital iOS Code Challenge";
 			productReference = 3762123B281B7D480066D7AE /* Columbus Digital iOS Code Challenge.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +345,9 @@
 				Base,
 			);
 			mainGroup = 37621232281B7D480066D7AE;
+			packageReferences = (
+				37621270281BAF1B0066D7AE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 3762123C281B7D480066D7AE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -131,6 +365,7 @@
 				3762124E281B7D490066D7AE /* LaunchScreen.storyboard in Resources */,
 				3762124B281B7D490066D7AE /* Assets.xcassets in Resources */,
 				37621246281B7D480066D7AE /* Main.storyboard in Resources */,
+				377F1C92281C1A9D00F01370 /* TimerTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,9 +377,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				37621243281B7D480066D7AE /* ViewController.swift in Sources */,
+				3762125B281B7EB70066D7AE /* MainMenuViewController.swift in Sources */,
+				37621268281B800F0066D7AE /* Contact.swift in Sources */,
+				377F1CB1281C54F200F01370 /* TimerProtocol.swift in Sources */,
+				37621263281B7F9C0066D7AE /* ContactInformationViewController.swift in Sources */,
+				3762126F281BAE7E0066D7AE /* Timer.swift in Sources */,
 				37621249281B7D480066D7AE /* Columbus_Digital_iOS_Code_Challenge.xcdatamodeld in Sources */,
+				3762125D281B7EF70066D7AE /* AddContactViewController.swift in Sources */,
+				377F1CB3281C554E00F01370 /* TimerPresenter.swift in Sources */,
+				377F1C91281C1A9D00F01370 /* TimerTableViewCell.swift in Sources */,
+				377F1C8E281C159700F01370 /* Atom.swift in Sources */,
+				377F1CAF281C4FFA00F01370 /* EditContactPresenter.swift in Sources */,
+				377F1CA9281C417400F01370 /* ContactListPresenter.swift in Sources */,
+				37621265281B7FBE0066D7AE /* EditContactViewController.swift in Sources */,
 				3762123F281B7D480066D7AE /* AppDelegate.swift in Sources */,
+				377F1CB5281C664100F01370 /* LoadingIndicatorManager.swift in Sources */,
+				3762126D281BAD930066D7AE /* NetworkConnection.swift in Sources */,
+				377F1C94281C32F300F01370 /* CreateContactProtocol.swift in Sources */,
+				37621274281BB10C0066D7AE /* TimerViewController.swift in Sources */,
+				3762125F281B7F1F0066D7AE /* ContactListViewController.swift in Sources */,
 				37621241281B7D480066D7AE /* SceneDelegate.swift in Sources */,
+				377F1CA5281C3FD900F01370 /* ContactListProtocol.swift in Sources */,
+				377F1CAC281C4E7F00F01370 /* EditContactProtocol.swift in Sources */,
+				3762126B281B8A4F0066D7AE /* DataBaseManager.swift in Sources */,
+				377F1C96281C338F00F01370 /* CreateContactPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +616,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		37621270281BAF1B0066D7AE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		37621271281BAF1B0066D7AE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 37621270281BAF1B0066D7AE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		37621247281B7D480066D7AE /* Columbus_Digital_iOS_Code_Challenge.xcdatamodeld */ = {
